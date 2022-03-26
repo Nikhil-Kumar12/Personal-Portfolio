@@ -74,7 +74,7 @@ export default function Testimonial(props) {
                       </ul>
                     </div>
                     <div className="client-info">
-                      <img src="img/testimonial/lady.png" alt=".." />
+                      <img src={require("../../assets/Testimonial/lady.png")} alt=".." />
                       <h5>Caitlin Snow</h5>
                       <p>CEO Catco Worldwide</p>
                     </div>
@@ -110,7 +110,7 @@ export default function Testimonial(props) {
                       </ul>
                     </div>
                     <div className="client-info">
-                      <img src="img/testimonial/mike.png" alt=".." />
+                      <img src={require("../../assets/Testimonial/mike.png")} alt=".." />
                       <h5>Mikel</h5>
                       <p>CEO Oscorp</p>
                     </div>
@@ -146,7 +146,7 @@ export default function Testimonial(props) {
                       </ul>
                     </div>
                     <div className="client-info">
-                      <img src="img/testimonial/daisy.jpg" alt=".." />
+                      <img src={require("../../assets/Testimonial/daisy.jpg")} alt=".." />
                       <h5>Daisy Dominic</h5>
                       <p>CEO Verzeo</p>
                     </div>
@@ -181,7 +181,7 @@ export default function Testimonial(props) {
                       </ul>
                     </div>
                     <div className="client-info">
-                      <img src="img/testimonial/man.png" alt=".." />
+                      <img src={require("../../assets/Testimonial/man.png")} alt=".." />
                       <h5>Harrison Wells</h5>
                       <p>CEO S.T.A.R Labs</p>
                     </div>
@@ -193,7 +193,7 @@ export default function Testimonial(props) {
         </div>
       </section>
       <div className="footer-image">
-        <img src="./img/Testimonial/shape-bg.png" alt="image not responding" />
+        <img src={require("../../assets/Testimonial/shape-bg.png")} alt="image not responding" />
       </div>
     </div>
   );
