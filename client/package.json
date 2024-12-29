@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "proxy": "http://localhost:5050",
+  "proxy": "https://personal-portfolio-one-plum-54.vercel.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
